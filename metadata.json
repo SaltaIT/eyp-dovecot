@@ -1,6 +1,6 @@
 {
   "name": "eyp-dovecot",
-  "version": "0.1.15",
+  "version": "1.0.15",
   "author": "Jordi Prats",
   "summary": "dovecot installation and IMAP basic setup",
   "license": "Apache-2.0",
