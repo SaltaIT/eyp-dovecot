@@ -1,15 +1,15 @@
 {
   "name": "eyp-dovecot",
-  "version": "0.1.15",
-  "author": "eyp",
+  "version": "1.0.15",
+  "author": "Jordi Prats",
   "summary": "dovecot installation and IMAP basic setup",
   "license": "Apache-2.0",
-  "source": "https://github.com/NTTCom-MS/eyp-dovecot",
-  "project_page": "https://github.com/NTTCom-MS/eyp-dovecot",
-  "issues_url": "https://github.com/NTTCom-MS/eyp-dovecot/issues",
+  "source": "https://github.com/SaltaIT/eyp-dovecot",
+  "project_page": "https://github.com/SaltaIT/eyp-dovecot",
+  "issues_url": "https://github.com/SaltaIT/eyp-dovecot/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0 < 9.9.9"},
-    {"name":"eyp/eyplib","version_requirement":">= 0.1.0 < 0.2.0"},
+    {"name":"eyp/eyplib","version_requirement":">= 1.0.0 < 2.0.0"},
     {"name":"eyp/postfix","version_requirement":">= 0.2.15 < 0.3.0"},
     {"name":"puppetlabs/concat","version_requirement":">= 1.2.3 < 9.9.9"}
   ],
@@ -46,7 +46,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 3.8.0"
+      "version_requirement": ">= 4.0.0"
     }
   ]
 }
